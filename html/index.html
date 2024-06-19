@@ -6,8 +6,8 @@
 }
   </style>
   <script>
-    let produrl = "http://localhost:5000/"
-    let dealerurl = "http://localhost:8080/"
+    let produrl = "https://prodlist.1idjv4u9j0tc.us-south.codeengine.appdomain.cloud"
+    let dealerurl = "https://frontend.1idjv4u9j0tc.us-south.codeengine.appdomain.cloud"
 
     axios.get(produrl+"products").then(res=>{
       let selEl = document.createElement("select");
